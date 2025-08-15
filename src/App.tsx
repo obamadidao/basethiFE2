@@ -8,7 +8,7 @@ import Register from "./Register";
 import Login from "./Login";
 import List from "./List";
 
-function App() {
+export default function App() {
   return (
     <Layout style={{ minHeight: "100vh" }}>
       <Header>
@@ -32,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+
